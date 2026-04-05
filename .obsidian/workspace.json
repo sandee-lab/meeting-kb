@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "d2770525c216c137",
+    "type": "split",
+    "children": [
+      {
+        "id": "47a45002b3a5b721",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7677cd654b928409",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11865de9b809d165",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebb0ab1c1cbdad17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f0d01b9665bc360",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "48195dc3b1aa993d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "bf4f9ef3d35b4e89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00741a283ed6aa32",
+    "type": "split",
+    "children": [
+      {
+        "id": "68603a0e9707951a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c992e3a3cf914b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "7f6c99f6219629af",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "29d313d8de3916d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "5ead22a7b08249bd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "8cb94f66acd008f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "7677cd654b928409",
+  "lastOpenFiles": [
+    "wiki/index.md.tmp.32424.1775409898802",
+    "wiki/index.md.tmp.32424.1775409895776",
+    "wiki/index.md.tmp.32424.1775409894520",
+    "wiki/concepts/성장시스템-경제.md.tmp.32424.1775409882909",
+    "wiki/concepts/플레이테스트-유저피드백.md.tmp.32424.1775409879313",
+    "wiki/concepts/BM & 모네타이제이션.md.tmp.32424.1775409876188",
+    "wiki/concepts/택틱 시스템.md.tmp.32424.1775409874992",
+    "wiki/decisions/마일스톤-일정.md",
+    "wiki/decisions/마일스톤-일정.md.tmp.32424.1775409829469",
+    "wiki/decisions/성장-경제.md",
+    "wiki/decisions/성장-경제.md.tmp.32424.1775409795573",
+    "wiki/decisions/튜토리얼.md",
+    "wiki/decisions/튜토리얼.md.tmp.32424.1775409747843",
+    "wiki/decisions/UI-UX.md",
+    "wiki/decisions/UI-UX.md.tmp.32424.1775409714116",
+    "wiki/decisions/BM-수익화.md",
+    "wiki/decisions/택틱-시스템.md",
+    "wiki/decisions/유닛-밸런스.md",
+    "wiki/decisions/코어-메커닉.md",
+    "wiki/concepts/머지-카드-시스템.md",
+    "wiki/concepts/성장시스템-경제.md",
+    "wiki/concepts/플레이테스트-유저피드백.md",
+    "wiki/concepts/BM & 모네타이제이션.md",
+    "wiki/concepts/유닛-속성-밸런스.md",
+    "wiki/concepts/UI-UX-폴리싱.md",
+    "wiki/concepts/택틱 시스템.md",
+    "wiki/concepts/튜토리얼-온보딩.md",
+    "wiki/index.md",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM).md",
+    "raw/[1231] 회의록.md",
+    "raw/[1224] 승급 연출.md",
+    "raw/[1223] 튜토리얼 제작.md",
+    "raw/[1220] 회의록.md",
+    "raw/[1220] 튜토리얼 예시.md",
+    "raw/[1216] 머지 룰 개선.md",
+    "raw/[1215] FGT 커스텀 설문.md",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 8.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 7.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 6.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 5.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 4.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 3.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 2.png",
+    "raw/[슈퍼레빗] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image 1.png",
+    "raw/[1231] 회의록/image.png"
+  ]
+}

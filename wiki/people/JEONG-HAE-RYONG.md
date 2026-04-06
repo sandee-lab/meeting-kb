@@ -1,6 +1,7 @@
 ---
 title: JEONG HAE RYONG
 aliases: [정해룡]
+type: person
 role: 기획 리드
 created: 2026-04-06
 updated: 2026-04-06

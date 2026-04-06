@@ -1,3 +1,11 @@
+---
+title: Wiki Log
+type: meta
+created: 2026-04-06
+updated: 2026-04-06
+tags: [log, meta]
+---
+
 # Wiki Log
 
 > 모든 ingest, query, lint 작업을 시간순으로 기록하는 append-only 로그.
@@ -56,3 +64,9 @@
 - wiki/people/ 초기 문서 생성 (7명)
 - CLAUDE.md 업데이트: log.md 규칙, Two Outputs 원칙, frontmatter 표준, 관계유형, ingest 범위 가이드 추가
 - 기존 wiki/ 문서 30개에 YAML frontmatter 추가
+
+## [2026-04-06] lint | Karpathy 패턴 재점검
+
+- people/ 7개 문서에 누락된 `type: person` 추가
+- index.md, log.md에 `type: meta` frontmatter 추가
+- CLAUDE.md type 체계에 `meta` 타입 추가 (위키 운영 문서용)

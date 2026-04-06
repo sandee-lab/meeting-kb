@@ -8,7 +8,7 @@ tags: [index, meta]
 
 # Router
 
-> 업데이트: 2026-04-07 | 원본 227개 | concepts 25 · decisions 8 · timeline 4
+> 업데이트: 2026-04-07 | 원본 223개 | concepts 25 · decisions 8 · timeline 4
 
 ## 원본 서브인덱스
 

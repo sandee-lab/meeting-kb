@@ -13,6 +13,29 @@ tags: [log, meta]
 
 ---
 
+## [2026-04-07] lint | 헬스체크 4차 — phantom link 정리 + 비효율 연결 분석
+
+### 점검 결과
+1. **Phantom wikilinks 수정 (31건)** — 존재하지 않는 wiki 문서를 참조하는 깨진 링크 수정
+   - timeline/2024-Q4.md: 9개 phantom → 6개 유효 링크로 교체 (3 섹션)
+   - timeline/2025-상반기.md: 9개 phantom → 8개 유효 링크로 교체 (4 섹션 중 3개)
+   - timeline/2026-Q1.md: 21개 phantom → 14개 유효 링크로 교체 (3 섹션)
+   - concepts/머지-카드-시스템.md: 택틱-시스템→택틱 시스템, 전설-유닛-조합(삭제), 수익화-BM→BM & 모네타이제이션
+   - concepts/빌드-진화-단계.md: concepts/코어-메커닉→concepts/머지-카드-시스템
+   - concepts/성장-가이드-시스템.md: concepts/모네타이제이션→concepts/BM & 모네타이제이션
+2. **비효율 연결 정리** — 같은 문서로 매핑되는 중복 링크 통합
+   - 2026-Q1 3월: 유닛-시스템+속성-시너지 → 유닛-속성-밸런스 1개로, 등급-체계-조정+스마트-밴+물리속성-무속성 → 유닛-밸런스 1개로 (11→7개)
+   - 2024-Q4: concepts/머지 시스템이 3 섹션에 반복 → 실제 관련 범위로 분산 재배치
+3. **Index 카운트 수정** — 원본 227→223개 (삭제된 raw/publisher/ 4건 반영)
+4. **Frontmatter updated 갱신** — 수정된 6개 파일의 updated 날짜 2026-04-07로 변경
+5. **불일치** — 없음
+6. **미등록 결정사항** — 없음
+7. **concepts 후보** — 없음
+
+### 잔여 참고사항 (수정 불필요)
+- raw/meetings/ 파일 86개(고유) vs index-meetings 85건: [1231] 회의록.md 중복 파일 존재 (기존 lint에서 처리 이력 있음)
+- index-feedback "24건" 외에 퍼블리셔 섹션에 Ncsoft회의록_260310 별도 등재, [NCsoft]5월 반영 제안 파일 존재하지만 index에서 삭제 처리 상태
+
 ## [2026-04-07] structure | index.md 라우터 압축 (89줄→60줄)
 
 - C↔D 쌍 병합: concepts와 decisions 키워드 중복 7쌍을 한 줄로 통합

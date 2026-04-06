@@ -8,10 +8,10 @@ tags: [index, meta]
 
 # Meeting Knowledge Base - Index
 
-> 최종 업데이트: 2026-04-06
-> 총 원본 수: 218개 (회의록 74 + 기획서 115 + 피드백 24 + 퍼블리셔 5) (2024-10 ~ 2026-04)
+> 최종 업데이트: 2026-04-06 (lint 3차)
+> 총 원본 수: 217개 (회의록 75 + 기획서 114 + 피드백 24 + 퍼블리셔 4) (2024-10 ~ 2026-04)
 > concepts 문서: 25개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
-> 원본 경로: raw/meetings/, raw/gdd/, raw/feedback/, raw/publisher/
+> 원본 경로: raw/meetings/, raw/gdd/, raw/feedback/ (raw/publisher/ 2026-04 삭제)
 
 ---
 
@@ -51,6 +51,7 @@ tags: [index, meta]
 #### 1월
 | 날짜 | 제목 | 참석자 | 핵심 안건 |
 |------|------|--------|-----------|
+| 01/03 | [[raw/meetings/[0103] 폴리싱 리스트 Alpha 1/[0103] 폴리싱 리스트 Alpha 1]] | JEONG HAE RYONG | Alpha 1 빌드 버그 수정 및 폴리싱 — 머지 연출 이펙트 추가, 배경 애니메이션, 광고 카드 보너스 적용 |
 | 01/09 | [[raw/meetings/[0109] 마일스톤 2 플레이 테스트]] | JEONG HAE RYONG | M2 종료 내부 전체 플레이 테스트 공지, APK 배포, 피드백 시트 안내 |
 | 01/09 | [[raw/meetings/[0109] 빌드 피드백 Alpha 1]] | JEONG HAE RYONG | Alpha 1 피드백 종합 — 아트 호평, 속도감/밸런스/가시성 개선 필요 |
 | 01/10 | [[raw/meetings/[0110] 폴리싱 리스트 Alpha 2/[0110] 폴리싱 리스트 Alpha 2]] | JEONG HAE RYONG | Alpha 2 게임 코어 및 UI 폴리싱, 튜토리얼 플로우 개선 |
@@ -214,7 +215,7 @@ tags: [index, meta]
 
 | 날짜 | 제목 | 형식 | 핵심 내용 |
 |------|------|------|-----------|
-| 03/20 | [[raw/publisher/[Ncsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/[NCsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)]] | .md | 소과금 PUR 전략, 초보자/팝업/스텝업 패키지, 가챠 패스, 6주 로드맵 |
+| 03/20 | ~~NCsoft 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)~~ | .md | *(삭제됨)* 소과금 PUR 전략, 초보자/팝업/스텝업 패키지, 가챠 패스, 6주 로드맵 |
 | 03/03 | [[raw/feedback/NCsoft_TinyCatAssemble 피드백_20260303]] | .md | NCsoft 공식 피드백 — 전설 중심 재설계, 밸런스, BM 구조, UI/UX (Ver.0.0.10, xlsx→md 변환) |
 | 03/10 | [[raw/feedback/Ncsoft회의록_260310]] | .md | NC-SR 공식 회의 — 전설 재료 단순화·기본 50% 성능 확정, 유닛 승계 3/20 검증 결정, IAA 10% 미만 전망, 3/20 빌드 액션 아이템 5건 |
 
@@ -222,7 +223,7 @@ tags: [index, meta]
 
 ## 기획서 목록 (raw/gdd/)
 
-> 게임 디자인 문서(GDD). 카테고리별 기획서 115건 (active 81 / superseded 34).
+> 게임 디자인 문서(GDD). 카테고리별 기획서 114건 (active 81 / superseded 33).
 > 각 문서는 YAML frontmatter(제목, 카테고리, 상태, 키워드, 관련_기획서) 포함.
 > 전체 인덱스: raw/gdd/gdd_index.csv
 
@@ -242,7 +243,7 @@ tags: [index, meta]
 | [[raw/gdd/01_Core/지휘관_인게임_경제_시나리오]] | active | [[concepts/지휘관-배틀슈트]] |
 | [[raw/gdd/01_Core/초반_플레이_시퀀스]] | superseded | [[concepts/튜토리얼-온보딩]] |
 
-### 02_System — 시스템 기획 (43건)
+### 02_System — 시스템 기획 (44건)
 
 | 제목 | 상태 | 관련 위키 |
 |------|------|-----------|

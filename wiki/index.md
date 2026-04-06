@@ -2,7 +2,7 @@
 
 > 최종 업데이트: 2026-04-06
 > 총 원본 수: 215개 (회의록 72 + 기획서 115 + 피드백 23 + 퍼블리셔 5) (2024-10 ~ 2026-03)
-> concepts 문서: 18개 | decisions 문서: 8개 | timeline 문서: 4개
+> concepts 문서: 18개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
 > 원본 경로: raw/meetings/, raw/gdd/, raw/feedback/, raw/publisher/
 
 ---
@@ -406,7 +406,20 @@
 | [[timeline/2026-Q1]] | 2026.01~03 | FGT 피드백 → 코어 루프 근본 개선 → 소프트런칭 준비 |
 
 ### people/ (담당자별 이력)
-> 아직 생성되지 않음 — 초기 컴파일 시 생성 예정
+
+| 문서 | 역할 | 주요 관여 영역 |
+|------|------|----------------|
+| [[people/JEONG-HAE-RYONG]] | 기획 리드 | 코어 기획, 시스템 설계, BM, 콘텐츠, 외부 대응 — 거의 모든 회의 주도 |
+| [[people/소명]] | 팀원 | 초기 개발 참여 |
+| [[people/유민]] | 팀원 | 초기 개발 참여 |
+| [[people/정승언]] | 팀원 | 개발 참여 (승언) |
+| [[people/대용]] | 팀원 | 초기 개발 참여 |
+| [[people/기훈]] | 팀원 | 초기 개발 참여 |
+| [[people/김수현]] | 팀원 | 2025 하반기 개발 참여 |
+
+### log.md (작업 로그)
+
+- [[log]] — 모든 ingest, query, lint, structure 작업의 시간순 기록
 
 ---
 
@@ -424,6 +437,7 @@
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-04-06 | Karpathy LLM Wiki 패턴 점검: log.md 생성, people/ 7명 초기 문서, CLAUDE.md에 Two Outputs·frontmatter·관계유형·ingest 범위 규칙 추가, 기존 wiki 30개 문서 frontmatter 추가 |
 | 2026-04-06 | 헬스체크 2차: 누락 회의록 19건 등록, decisions 상충 6건 최종결정 명시, 미등록 결정사항 10건 추가, 신규 concepts 4건(사운드/확률/스폰/난이도), 크로스 레퍼런스 9쌍 보강 |
 | 2026-04-06 | raw/gdd/ 기획서 115건 위키 연결 — GDD 목록 섹션 추가, 신규 concepts 6개 생성, 기존 concepts 8개 GDD 출처 보강, decisions/timeline 업데이트 |
 | 2026-04-06 | raw/feedback/ 추가 피드백 자료 11건(xlsx/pdf/csv/docx) 인덱스에 반영 |

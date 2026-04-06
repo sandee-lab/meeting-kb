@@ -1,3 +1,10 @@
+---
+title: UI/UX 결정사항
+type: decision
+created: 2026-04-06
+updated: 2026-04-06
+tags: [decisions, UI, UX]
+---
 # UI/UX 결정사항
 
 > UI 디자인 방향, 제작툴, 시인성, 연출에 관한 확정 결정

@@ -1,3 +1,11 @@
+---
+title: UI/UX & 폴리싱
+type: concept
+created: 2026-04-06
+updated: 2026-04-06
+tags: [concepts, UI, UX]
+---
+
 # UI/UX & 폴리싱
 
 > 출처: [[raw/meetings/[0728] 미니크래프트 UI 폴리싱]], [[raw/meetings/[0802] 미니크래프트 UI 개선 방향]], [[raw/meetings/[1106] M9 폴리싱 리스트]], [[raw/meetings/[0103] 폴리싱 리스트 Alpha 1]], [[raw/meetings/[0110] 폴리싱 리스트 Alpha 2]], [[raw/meetings/[0126] 2월 폴리싱 리스트]], [[raw/meetings/[0311] 소프트런칭 폴리싱 리스트]], [[raw/meetings/[0314] 스파인 쉐이더]], [[raw/gdd/05_UX/아웃게임_메뉴_레이아웃_기획서]], [[raw/gdd/05_UX/폴리싱_인벤토리_기획서]], [[raw/gdd/05_UX/폴리싱_스킬카드_정보표기_기획서]], [[raw/gdd/05_UX/폴리싱_결과창_MVP유닛_기획서]], [[raw/gdd/05_UX/폴리싱_데미지_통계_배틀슈트_기획서]], [[raw/gdd/05_UX/폴리싱_도감_기획서]], [[raw/gdd/05_UX/폴리싱_상태이상_폰트_표기_기획서]], [[raw/gdd/05_UX/폴리싱_장비_자동장착_기획서]], [[raw/gdd/05_UX/폴리싱_프로필_기획서]], [[raw/gdd/05_UX/피해량_표시_UI개선]], [[raw/gdd/05_UX/공허의균열_하단탭_UX개선]], [[raw/gdd/05_UX/시간의균열_최고기록_UI개선]], [[raw/gdd/05_UX/유닛_승급_강화_연출_기획서]], [[raw/gdd/05_UX/소환_메뉴_분리]] *(대체됨)*, [[raw/gdd/05_UX/스테이지_결과창]] *(대체됨)*, [[raw/gdd/05_UX/시스템_메시지_규격]] *(대체됨)*, [[raw/gdd/05_UX/아웃게임_옵션_설정]] *(대체됨)*, [[raw/gdd/05_UX/일시정지_이어하기]] *(대체됨)*, [[raw/gdd/05_UX/전투_시작_연출]] *(대체됨)*, [[raw/gdd/05_UX/콘텐츠_언락_연출]] *(대체됨)*, [[raw/gdd/05_UX/툴팁_표시_정의]] *(대체됨)*

@@ -1,3 +1,10 @@
+---
+title: BM & 수익화 결정사항
+type: decision
+created: 2026-04-06
+updated: 2026-04-06
+tags: [decisions, BM, 수익화]
+---
 # BM & 수익화 결정사항
 
 > 과금 모델, 광고, 배틀패스, 패키지, 이벤트 수익화에 관한 확정 결정

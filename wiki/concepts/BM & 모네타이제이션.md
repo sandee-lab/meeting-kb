@@ -1,3 +1,11 @@
+---
+title: BM & 모네타이제이션
+type: concept
+created: 2026-04-06
+updated: 2026-04-06
+tags: [concepts, BM, 모네타이제이션]
+---
+
 # BM & 모네타이제이션
 
 > 출처: [[raw/meetings/[0208] 운빨 메모]], [[raw/meetings/[0903] Alpha빌드 방향성 회의]], [[raw/meetings/[0904] 핵심 플레이 경험 개선 및 장기 성장 모델 구축]], [[raw/meetings/[1013] M8 추가 이슈 회의록]], [[raw/meetings/[1208] 이벤트 및 BM]], [[raw/meetings/[0102] 빌드 피드백 회의]], [[raw/publisher/[Ncsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/[NCsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)]], [[raw/gdd/04_BM/가챠패스_기획서]], [[raw/gdd/04_BM/광고_슬롯_자동획득_기획서]], [[raw/gdd/04_BM/광고_제거_상품]] *(대체됨)*, [[raw/gdd/04_BM/릴레이_패키지_기획서]], [[raw/gdd/04_BM/멤버십_상점]] *(대체됨)*, [[raw/gdd/04_BM/미리보기_체험_스테이지_기획서]], [[raw/gdd/04_BM/성장_BM_기획서]], [[raw/gdd/04_BM/시즌패스]] *(대체됨)*, [[raw/gdd/04_BM/인게임_배속_시스템_기획서]], [[raw/gdd/04_BM/첫_결제_이벤트_기획서]], [[raw/gdd/04_BM/초보자_패키지_기획서]], [[raw/gdd/04_BM/충전_이벤트_기획서]], [[raw/gdd/04_BM/팝업_패키지_기획서]]

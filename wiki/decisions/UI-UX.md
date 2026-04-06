@@ -71,4 +71,3 @@ tags: [decisions, UI, UX]
 
 ## 관련 문서
 - [[concepts/UI-UX-폴리싱]]
-- [[concepts/플레이테스트-유저피드백]]

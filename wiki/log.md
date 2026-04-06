@@ -13,6 +13,26 @@ tags: [log, meta]
 
 ---
 
+## [2026-04-07] structure | 순방향 참조 규칙 도입 — 관련 문서 262→~100개 압축
+
+### 변경 사항
+1. **CLAUDE.md 링크 규칙 개정** — 양방향 링크 → 순방향 참조로 전환
+   - concepts → concepts: 직접 의존만 (A가 B 없이 설명 불가할 때만)
+   - concepts → decisions: 1~2개 핵심 결정만
+   - concepts → timeline: 원칙적 불필요 (삭제)
+   - decisions → concepts: 주 concept 1개
+   - timeline → concepts: 월별 2~4개, decisions 링크 제거
+2. **concepts 25개** — 평균 8.8→2.7개 링크, phantom 5건 수정 (밸런스, 유닛 시스템, 코어-루프, 전설-유닛-조합, 인게임 플레이)
+3. **decisions 8개** — 평균 3.2→1.1개 링크 (주 concept 1개만 유지)
+4. **timeline 4개** — decisions 역링크 전면 제거, concepts만 유지
+5. **CLAUDE.md lint 설명** — "양방향 링크 점검" → "순방향 참조 규칙 준수 점검"
+
+### 효과
+- Obsidian 백링크 패널이 역방향 탐색을 자동 처리하므로 수동 역링크 불필요
+- 관련 문서 유지보수 부담 대폭 감소 (새 문서 추가 시 1곳만 업데이트)
+
+---
+
 ## [2026-04-07] lint | 헬스체크 4차 — phantom link 정리 + 비효율 연결 분석
 
 ### 점검 결과

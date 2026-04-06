@@ -158,5 +158,3 @@ tags: [decisions, BM, 수익화]
 
 ## 관련 문서
 - [[concepts/BM & 모네타이제이션]]
-- [[concepts/성장시스템-경제]]
-- [[decisions/성장-경제]]

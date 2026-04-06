@@ -576,13 +576,6 @@ tags: [concepts, UI, UX, 폴리싱]
 
 ## 관련 문서
 
-- [[wiki/concepts/연출-이펙트]] — 전투 시작, 유닛 승급, 콘텐츠 언락 등 인게임 연출 상세
-- [[wiki/concepts/성장-가이드-시스템]] — 던전 실패 시 병목 진단 및 맞춤형 안내 시스템
+- [[wiki/concepts/연출-이펙트]] — 전투 시작, 유닛 승급 등 인게임 연출 상세
 - [[wiki/concepts/사운드-음악-설계]] — 사운드를 포함한 UI/UX 폴리싱 연계
-- [[wiki/concepts/플레이테스트-유저피드백]] — 유저 피드백에서 도출된 UI/UX 개선 요구사항
-- [[wiki/concepts/밸런스]] — 밸런스 조정과 연출 개선의 연관 관계
-- [[wiki/concepts/모네타이제이션]] — BM 수익화 동선 및 연출과의 관계
 - [[decisions/UI-UX]] — UI/UX 관련 확정 결정사항
-- [[timeline/2025-상반기]] — UI 비주얼 방향 확정 (Retro Futurism, 7월)
-- [[timeline/2025년-하반기(8월~12월)]] — 피그마 전환 결정 (8월), M9 폴리싱 집중 (11월)
-- [[timeline/2026-Q1]] — 소프트런칭 폴리싱 리스트 확정 (3월)

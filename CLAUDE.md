@@ -23,10 +23,12 @@ output/       # Q&A 결과물, 슬라이드
 - **사실만 기록** — 원본에 없는 내용을 추론하지 않는다. 불확실하면 `(미확인)` 표기
 - **한국어** 작성, **Obsidian 위키링크** `[[]]` 사용, 출처 명시 (`> 출처: [[원본]]`)
 - **외부 피드백과 내부 논의**를 구분하여 기록
-- **양방향 링크 유지** — concepts ↔ decisions, concepts ↔ timeline 링크는 반드시 양방향으로 유지한다
-  - decisions 문서가 concepts를 참조하면, 해당 concepts의 `## 관련 문서`에 역방향 링크 필수
-  - timeline 문서가 concepts를 참조하면, 해당 concepts의 `## 관련 문서`에 역방향 링크 필수
-  - concepts ↔ concepts 상호 참조 시 `## 관련 문서` 양쪽 모두에 반영
+- **순방향 참조만** — `## 관련 문서`에는 해당 문서의 이해에 직접 필요한 링크만 기재한다. 역방향 링크는 Obsidian 백링크 패널이 자동 처리하므로 수동 유지하지 않는다
+  - concepts → decisions: 해당 concept에 영향을 준 핵심 결정 1~2개
+  - concepts → concepts: 직접 의존하는 concept만 (A가 B 없이 설명 불가할 때만 A→B)
+  - concepts → timeline: 원칙적으로 불필요 (timeline은 라우터로 탐색)
+  - decisions → concepts: 결정의 주제가 되는 주 concept 1개
+  - timeline → concepts: 해당 시기의 핵심 주제 concept (월별 2~4개)
 
 ## Frontmatter
 
@@ -58,4 +60,4 @@ tags: [태그]
 - ⚠️ 서브인덱스를 매번 모두 읽지 않는다 — 라우터 키워드로 판단 후 필요한 것만 읽는다
 
 ### Lint (헬스체크)
-문서 간 불일치, 누락 백링크, 미등록 결정사항, frontmatter 점검, index.md 파일목록 검증, **concepts 양방향 링크 점검** → log.md 기록
+문서 간 불일치, 누락 백링크, 미등록 결정사항, frontmatter 점검, index.md 파일목록 검증, **순방향 참조 규칙 준수 점검** → log.md 기록

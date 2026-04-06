@@ -10,6 +10,17 @@ $ARGUMENTS — (선택) raw/ 하위의 파일 경로. 생략하면 자동으로 
 3. index.md에 없는 파일 = 새 원본으로 판단하여 ingest 대상으로 삼는다
 4. 새 파일이 없으면 "새 원본이 없습니다"로 종료한다
 
+## 바이너리 파일 자동 변환
+대상 파일 확장자가 xlsx, xls, docx, doc, pdf, pptx, csv 중 하나이면:
+1. 다음 명령어로 .md로 변환한다:
+   ```
+   /c/Users/sva/AppData/Local/Programs/Python/Python312/Scripts/markitdown.exe "<원본경로>" -o "<원본경로>.md"
+   ```
+2. 변환 성공 시 원본 바이너리를 `.archive/` 하위 동일 구조 경로로 이동한다
+   - 예: `raw/feedback/file.pdf` → `.archive/feedback/file.pdf`
+3. 변환된 .md 파일을 대상으로 이후 절차를 진행한다
+4. 변환 실패 시 오류를 보고하고 중단한다
+
 ## 절차
 1. 대상 파일을 읽는다
 2. 내용을 분석하여 관련 wiki/ 문서를 파악한다 (index.md 참조)

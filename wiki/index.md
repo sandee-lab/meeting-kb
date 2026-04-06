@@ -9,8 +9,8 @@ tags: [index, meta]
 # Meeting Knowledge Base - Index
 
 > 최종 업데이트: 2026-04-06
-> 총 원본 수: 215개 (회의록 72 + 기획서 115 + 피드백 23 + 퍼블리셔 5) (2024-10 ~ 2026-04)
-> concepts 문서: 19개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
+> 총 원본 수: 218개 (회의록 74 + 기획서 115 + 피드백 24 + 퍼블리셔 5) (2024-10 ~ 2026-04)
+> concepts 문서: 25개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
 > 원본 경로: raw/meetings/, raw/gdd/, raw/feedback/, raw/publisher/
 
 ---
@@ -157,11 +157,13 @@ tags: [index, meta]
 | 날짜 | 제목 | 참석자 | 핵심 안건 |
 |------|------|--------|-----------|
 | 03/03 | [[raw/meetings/[0303] nc피드백 정리]] | JEONG HAE RYONG | NC 피드백 — 전설 유닛 사용성, 스테이지 단조로움, 슬롯 제한, 카드 메타 |
+| 03/05 | [[raw/meetings/[260305]TCA_2월 빌드 피드백에 대한 개선 방향]] | JEONG HAE RYONG | 2월 빌드 피드백 개선 방향 — 전설 기본:시너지 50:50, 카드 확률 배치점수 보정, 공용 스탯 배치, 리롤 풀 보정, 전술 실험 시스템 |
 | 03/06 | [[raw/meetings/[0306] nc피드백 2차]] | JEONG HAE RYONG | NC 2차 피드백 대응 — 머지 USP, 전설 밸런싱, 속성 특징, 유닛 승계 |
 | 03/11 | [[raw/meetings/[0311] 소프트런칭 폴리싱 리스트]] | JEONG HAE RYONG | 소프트런칭용 종합 폴리싱 — 시인성, 랜덤 완화, 전략성, 반복감 해소 |
 | 03/14 | [[raw/meetings/[0314] 스파인 쉐이더]] | JEONG HAE RYONG | Spine 유닛 겹침 하이라이트용 스텐실 쉐이더 기술 구현 가이드 |
 | 03/15 | [[raw/meetings/[0315] 코어 루프 개선안/[0315] 코어 루프 개선안]] | JEONG HAE RYONG | 코어 루프 개선 — 스킬카드 투자 무의미 문제와 승급 전설 시스템 제안 |
 | 03/19 | [[raw/meetings/[0319] 3월 2-3주차 작업 리스트]] | JEONG HAE RYONG | 전설 합성 간소화, 등급별 밸런스, 스마트 밴, 택틱 등급 동적 제어 |
+| 03/19 | [[raw/meetings/TCA_0.0.12_빌드 작업 내역]] | — | v0.0.12 공식 빌드 노트 (PDF→MD 변환) — [0319] 작업 리스트 동일 내용 |
 
 ---
 
@@ -199,6 +201,7 @@ tags: [index, meta]
 | 2026 | [[raw/feedback/user_tiny_after.docx]] | 유저 상세 UX 피드백 — 진행바 가시성, 도감 UX, 웨이브 흐름, 소환 화면 (23항목) |
 | 2026-04-06 | [[raw/feedback/Review_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 리뷰 데이터 (영문, 대용량) |
 | 2026-04-06 | [[raw/feedback/Survey_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 설문 데이터 (영문, 다수 응답) |
+| 2026-03-03 | [[raw/feedback/NCsoft_TinyCatAssemble 피드백_20260303]] | NCsoft 공식 피드백 — 전설 중심 재설계 제안, 등급 간 밸런스, 머지 정체성, BM 구조 (Ver.0.0.10) |
 
 | 2025-09-25 | [[raw/feedback/ミニクラフト アンケート]] | TGS 일본어 설문 — 평균 4.39/5, 124명, 몬스터처치·머지·덱구성 순 선호 |
 | 2025-09-28 | [[raw/feedback/Minicraft_Eng]] | TGS 영문 설문 — 평균 4.25/5, 12명 해외 관람객, 다국어 응답 혼재 |
@@ -212,8 +215,8 @@ tags: [index, meta]
 | 날짜 | 제목 | 형식 | 핵심 내용 |
 |------|------|------|-----------|
 | 03/20 | [[raw/publisher/[Ncsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/[NCsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)]] | .md | 소과금 PUR 전략, 초보자/팝업/스텝업 패키지, 가챠 패스, 6주 로드맵 |
-| 03/03 | Ncsoft_TinyCatAssemble 피드백_20260303.xlsx | .xlsx | Ncsoft 피드백 데이터 (스프레드시트) |
-| 03/10 | Ncsoft회의록_260310.pdf | .pdf | Ncsoft 회의록 (PDF) |
+| 03/03 | [[raw/feedback/NCsoft_TinyCatAssemble 피드백_20260303]] | .md | NCsoft 공식 피드백 — 전설 중심 재설계, 밸런스, BM 구조, UI/UX (Ver.0.0.10, xlsx→md 변환) |
+| 03/10 | [[raw/feedback/Ncsoft회의록_260310]] | .md | NC-SR 공식 회의 — 전설 재료 단순화·기본 50% 성능 확정, 유닛 승계 3/20 검증 결정, IAA 10% 미만 전망, 3/20 빌드 액션 아이템 5건 |
 
 ---
 
@@ -393,6 +396,13 @@ tags: [index, meta]
 | [[concepts/운과-확률-메커니즘]] | 3중 랜덤 구조, 확률 철학, 카타르시스 설계 | 8개 |
 | [[concepts/스폰-몬스터-시스템]] | 몬스터 스폰 아키텍처, 웨이브 설계, 난이도 곡선 | 7개 |
 | [[concepts/난이도-곡선-밸런싱]] | 챕터별 난이도 곡선, 투사체 밀도, 밸런스 조정 방향 | 13개 |
+| [[concepts/빌드-진화-단계]] | 게임 방향성 변천사 — 6개 시기별 빌드 형태 및 코어 메커닉 변화 | 4개 |
+| [[concepts/외부-파트너-평가]] | Comtus·PCELL·사업팀·NCsoft 외부 평가 종합 및 비교 분석 | 8개 |
+| [[concepts/게임-컨셉-방향성]] | 장르 정의, 타겟 유저, 채널 경쟁 구조, LTV 전략, 과금 레이어 | 3개 |
+| [[concepts/스토리-세계관]] | 카마존 SF 블랙코미디 세계관, 캐릭터, 스토리 시놉시스 (미적용) | 2개 |
+| [[concepts/인게임-전체설계]] | 15웨이브 구조, 소환/합성 규칙, 전설 2-트랙, 유물 경제 전체 설계 | 4개 |
+| [[concepts/연출-이펙트]] | 유닛 승급·전투 시작·콘텐츠 언락·결과창 MVP 연출 규격 | 5개 |
+| [[concepts/성장-가이드-시스템]] | 던전 실패 시 7지표 진단, 5단계 분기 가이드, 기준값 3단계 운영 | 1개 |
 
 ### decisions/ (확정된 결정사항)
 

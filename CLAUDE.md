@@ -7,7 +7,9 @@ LLM이 컴파일·관리하는 마크다운 위키. Obsidian 뷰어, Claude가 w
 ```
 raw/          # 읽기 전용 원본 (meetings/, gdd/, feedback/)
 wiki/         # LLM 컴파일 영역
-  index.md    # 라우터 — 전체 목록 + 한줄 요약, 항상 최신 유지
+  index.md    # 라우터 — wiki 문서 키워드 테이블 + 서브인덱스 포인터
+  index-meetings.md   # 회의록 서브인덱스 (85건)
+  index-feedback.md   # 피드백/퍼블리셔 서브인덱스 (24건)
   log.md      # append-only 작업 로그 (## [YYYY-MM-DD] 작업유형 | 제목)
   concepts/   # 주제별 통합 정리
   decisions/  # 확정 결정사항 (날짜 + 맥락 + 결론)
@@ -46,11 +48,14 @@ tags: [태그]
 ## 작업 패턴
 
 ### Ingest (새 원본 추가)
-새 원본 1건 → index.md, log.md 필수 업데이트 + 관련 concepts/decisions/timeline 터치 (목표 5~15페이지)
+새 원본 1건 → index.md(라우터) + 해당 서브인덱스(index-meetings/index-feedback) + log.md 필수 업데이트 + 관련 concepts/decisions/timeline 터치 (목표 5~15페이지)
 
-### Query (Two Outputs)
-1. index.md → 관련 wiki/ → 필요시 raw/ 참조 → **답변**
-2. 새로운 합성이 나왔으면 → **wiki 업데이트** + log.md 기록
+### Query (Two Outputs) — 2단계 라우팅
+1. **1단계**: index.md(라우터)만 읽는다 → 키워드 테이블로 관련 wiki 문서 식별
+2. **2단계**: 원본이 필요하면 해당 서브인덱스(index-meetings 또는 index-feedback)를 읽어 특정 원본 찾기
+3. 관련 wiki/ → 필요시 raw/ 참조 → **답변**
+4. 새로운 합성이 나왔으면 → **wiki 업데이트** + log.md 기록
+- ⚠️ 서브인덱스를 매번 모두 읽지 않는다 — 라우터 키워드로 판단 후 필요한 것만 읽는다
 
 ### Lint (헬스체크)
 문서 간 불일치, 누락 백링크, 미등록 결정사항, frontmatter 점검, index.md 파일목록 검증, **concepts 양방향 링크 점검** → log.md 기록

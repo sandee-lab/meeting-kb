@@ -70,3 +70,32 @@ tags: [log, meta]
 - people/ 7개 문서에 누락된 `type: person` 추가
 - index.md, log.md에 `type: meta` frontmatter 추가
 - CLAUDE.md type 체계에 `meta` 타입 추가 (위키 운영 문서용)
+
+
+## [2026-04-06] ingest | raw/feedback/ MD 변환 파일 9건 위키 통합
+
+- **대상**: raw/feedback/ 내 PDF/XLSX/DOCX → MD 변환 완료된 9개 파일
+  - Minicraft_0.0.6 사업팀 피드백 취합.md (사업팀 9명)
+  - 미니크래프트_0.0.6_B팀 테스트 피드백.md (B팀 12명)
+  - 미니크래프트 2차 테스트(응답).md (M5 플레이테스트 응답 원본)
+  - 미니크래프트_0.0.6_럭키배틀 피드백 by PCELL.md (PCELL 외부)
+  - comtus_타이니캣어셈블_옥석감정단평가서.md (Comtus, 옥 PASSED 86.6%)
+  - comtus_Tiny Cat Assemble_FunQA.md (Comtus FunQA 3.7/5)
+  - user_tiny_after.docx.md (유저 상세 UX 피드백 23항목)
+  - Review_Tiny Cat Assemble _ Planet Busters_20260406.md (최신 리뷰)
+  - Survey_Tiny Cat Assemble _ Planet Busters_20260406.md (최신 설문)
+- **삭제 처리**: Minicraft_Eng.csv, ミニクラフト アンケート.csv (MD 미변환, 원본 삭제)
+- **index.md**: 피드백 섹션 재편 (비마크다운→MD 위키링크), 카운트 23→21, 총215→213
+- **신규 생성**: wiki/concepts/외부-파트너-평가.md (Comtus·PCELL·사업팀 평가 종합)
+- **업데이트**: 플레이테스트-유저피드백.md (출처 9개 추가, 3개 새 섹션), BM & 모네타이제이션.md (사업팀 BM 피드백), 튜토리얼-온보딩.md (외부 공통 지적 정리)
+
+## [2026-04-06] ingest | TGS 설문 CSV 2건 복원·MD 변환·위키 연결
+
+- **복원**: git checkout HEAD로 삭제된 CSV 2개 복원
+  - ミニクラフト アンケート.csv (일본어, 124명, TGS 2025-09-25)
+  - Minicraft_Eng.csv (영문, 12명, TGS 2025-09-28)
+- **MD 변환**: 집계·분석 포함한 마크다운 문서 생성
+  - raw/feedback/ミニクラフト アンケート.md
+  - raw/feedback/Minicraft_Eng.md
+- **index.md**: 피드백 수 21→23, 총 213→215로 복원. TGS 설문 2건 위키링크 추가
+- **플레이테스트-유저피드백.md**: 출처 2개 추가, TGS 원본 데이터 비교표 섹션 추가

@@ -9,8 +9,8 @@ tags: [index, meta]
 # Meeting Knowledge Base - Index
 
 > 최종 업데이트: 2026-04-06
-> 총 원본 수: 215개 (회의록 72 + 기획서 115 + 피드백 23 + 퍼블리셔 5) (2024-10 ~ 2026-03)
-> concepts 문서: 18개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
+> 총 원본 수: 215개 (회의록 72 + 기획서 115 + 피드백 23 + 퍼블리셔 5) (2024-10 ~ 2026-04)
+> concepts 문서: 19개 | decisions 문서: 8개 | timeline 문서: 4개 | people 문서: 7명
 > 원본 경로: raw/meetings/, raw/gdd/, raw/feedback/, raw/publisher/
 
 ---
@@ -184,21 +184,24 @@ tags: [index, meta]
 | 2025 | [[raw/feedback/[1017]로드컴플릿 피드백(2025) 33ad58e7faa08092b241f308547c341e]] | 로드컴플릿 종합 — 전략 깊이, 전설 유닛 매력, 가시성, 적 다양성, 최적화 |
 | 02/13 | [[raw/feedback/테스트 피드백 2월 13일]] | 사운드 날카로움, 전설 유닛 조합 난이도, 피격 진동, 4챕터 난이도, 튜토리얼 용어, 버그 (98항목) |
 
-#### 추가 피드백 자료 (비 마크다운)
+#### 외부/파트너 피드백 자료 (MD 변환 완료)
 
-| 파일명 | 형식 | 내용 |
-|--------|------|------|
-| comtus_타이니캣어셈블_옥석감정단평가서.pdf | PDF | Comtus 외부 품질 평가 |
-| comtus_Tiny Cat Assemble_FunQA.pdf | PDF | Comtus FunQA 평가 |
-| 미니크래프트 2차 테스트(응답).xlsx | XLSX | 미니크래프트 2차 테스트 응답 데이터 |
-| Minicraft_0.0.6 사업팀 피드백 취합.xlsx | XLSX | 사업팀 피드백 종합 |
-| 미니크래프트_0.0.6_B팀 테스트 피드백.xlsx | XLSX | B팀 테스트 피드백 |
-| 미니크래프트_0.0.6_럭키배틀 피드백 by PCELL.pdf | PDF | PCELL 럭키배틀 피드백 |
-| Review_Tiny Cat Assemble _ Planet Busters_20260406.xlsx | XLSX | TCA 리뷰 데이터 |
-| Survey_Tiny Cat Assemble _ Planet Busters_20260406.xlsx | XLSX | TCA 설문 데이터 |
-| Minicraft_Eng.csv | CSV | 미니크래프트 영문 설문 |
-| ミニクラフト アンケート.csv | CSV | 미니크래프트 일본어 설문 |
-| user_tiny_after.docx.docx | DOCX | 유저 테스트 후기 |
+> 기존 비마크다운(PDF/XLSX/DOCX) 파일이 마크다운으로 변환됨 (2026-04-06).
+
+| 날짜 | 제목 | 핵심 내용 |
+|------|------|-----------|
+| 2025 (v0.0.6) | [[raw/feedback/Minicraft_0.0.6 사업팀 피드백 취합]] | 사업팀 9명 — 튜토리얼 부재, BM 중복소환 매력도, 스타크래프트 IP, 마케팅 중요성 |
+| 2025 (v0.0.6) | [[raw/feedback/미니크래프트_0.0.6_B팀 테스트 피드백]] | B팀 12명 — 귀여운 아트, UX 직관성 부족, 조작감, 목적성 부족 |
+| 2025-07-24 | [[raw/feedback/미니크래프트 2차 테스트(응답)]] | M5 내부 플레이 테스트 설문 응답 — 코어 재미, 메타 불명확, 전략성 부족 (10명) |
+| 2025 (v0.0.6) | [[raw/feedback/미니크래프트_0.0.6_럭키배틀 피드백 by PCELL]] | PCELL 외부 피드백 — 수집형 강점, 일괄합성 필요, 가시성, 시장 포화 우려 |
+| 2026-01 | [[raw/feedback/comtus_타이니캣어셈블_옥석감정단평가서]] | Comtus 옥석감정단 — 옥(PASSED) 86.6%, 첫인상 3.2/4, 재미 3.07/4 (17명) |
+| 2026-01 | [[raw/feedback/comtus_Tiny Cat Assemble_FunQA]] | Comtus FunQA — 종합 3.7/5, 디자인 3.8 (4명 테스터, 갤럭시/에뮬레이터) |
+| 2026 | [[raw/feedback/user_tiny_after.docx]] | 유저 상세 UX 피드백 — 진행바 가시성, 도감 UX, 웨이브 흐름, 소환 화면 (23항목) |
+| 2026-04-06 | [[raw/feedback/Review_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 리뷰 데이터 (영문, 대용량) |
+| 2026-04-06 | [[raw/feedback/Survey_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 설문 데이터 (영문, 다수 응답) |
+
+| 2025-09-25 | [[raw/feedback/ミニクラフト アンケート]] | TGS 일본어 설문 — 평균 4.39/5, 124명, 몬스터처치·머지·덱구성 순 선호 |
+| 2025-09-28 | [[raw/feedback/Minicraft_Eng]] | TGS 영문 설문 — 평균 4.25/5, 12명 해외 관람객, 다국어 응답 혼재 |
 
 ---
 

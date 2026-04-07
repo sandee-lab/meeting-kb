@@ -4,6 +4,9 @@ type: decision
 created: 2026-04-06
 updated: 2026-04-07
 tags: [decisions, BM, 수익화]
+domain: BM
+domain_sub: [GE]
+summary: "과금모델·광고·배틀패스·패키지 결정 이력"
 ---
 # BM & 수익화 결정사항
 

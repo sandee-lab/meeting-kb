@@ -4,6 +4,9 @@ type: concept
 created: 2026-04-06
 updated: 2026-04-07
 tags: [concepts, BM, 모네타이제이션]
+domain: BM
+domain_sub: [GE]
+summary: "소과금 PUR 중심 수익모델·패키지·광고 전략"
 ---
 
 # BM & 모네타이제이션

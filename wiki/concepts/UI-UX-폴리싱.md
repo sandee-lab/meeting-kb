@@ -4,6 +4,9 @@ type: concept
 created: 2026-04-06
 updated: 2026-04-06
 tags: [concepts, UI, UX, 폴리싱]
+domain: UX
+domain_sub: []
+summary: "레트로퓨처리즘 UI·시인성·폴리싱 반복과제"
 ---
 
 # UI/UX & 폴리싱

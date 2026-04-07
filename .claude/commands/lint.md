@@ -5,12 +5,14 @@ wiki 전체를 헬스체크하고 품질 문제를 수정한다.
 2. **누락 백링크** — 연결되어야 하는데 빠진 위키링크
 3. **미등록 결정사항** — raw/에는 있지만 decisions/에 없는 확정 사항
 4. **concepts 후보** — 반복 등장하지만 아직 문서가 없는 주제
-5. **index.md 검증** — 실제 파일 목록과 index.md 항목 일치 여부
-6. **frontmatter 점검** — type, updated, tags 누락·불일치
+5. **index.md 검증** — 실제 파일 목록과 index.md 항목 일치 여부, 도메인 코드·요약 누락
+6. **frontmatter 점검** — type, updated, tags 누락·불일치 + **domain, summary 필수 필드** 존재 여부
 7. **people/ 검증** — 실제 참석자 목록과 people/ 문서 일치 여부
+8. **마이크로인덱스 검증** — 각 index-raw-XX.md의 항목이 해당 도메인과 일치하는지, 누락된 원본이 없는지
+9. **요약 일치** — index.md의 요약과 각 문서 frontmatter summary 필드 일치 여부
 
 ## 절차
 1. wiki/ 전체 파일을 스캔한다
-2. 위 7개 항목을 점검한다
+2. 위 9개 항목을 점검한다
 3. 발견된 문제를 보고하고 수정한다
 4. log.md에 lint 항목을 추가한다

@@ -4,6 +4,9 @@ type: decision
 created: 2026-04-06
 updated: 2026-04-06
 tags: [decisions, UI, UX]
+domain: UX
+domain_sub: []
+summary: "UI방향·제작툴·시인성·연출 확정 결정"
 ---
 # UI/UX 결정사항
 

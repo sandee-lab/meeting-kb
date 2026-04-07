@@ -8,7 +8,7 @@ tags: [index, meta]
 
 # Router
 
-> 업데이트: 2026-04-07 | 원본 268개 | concepts 33 · decisions 8 · timeline 4
+> 업데이트: 2026-04-08 | 원본 266개 | concepts 34 · decisions 8 · timeline 4
 
 ## 도메인 코드
 

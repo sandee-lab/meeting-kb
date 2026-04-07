@@ -13,6 +13,20 @@ tags: [log, meta]
 
 ---
 
+## [2026-04-08] lint | 헬스체크 — 마이크로인덱스 누락 원본 28건, 카운트 오류, 순방향참조 위반
+- **점검 항목 9개 완료**
+- 발견·수정 사항:
+  1. **index.md 카운트 오류**: `concepts 33 → 34`, `원본 268 → 266`
+  2. **순방향참조 위반**: `timeline/2026-Q1.md` GDD 섹션의 `[[decisions/성장-경제]]` 제거 (timeline→decisions 금지)
+  3. **마이크로인덱스 누락 원본 28건** 추가:
+     - index-raw-BM: 04_BM 신규 기획서 8건 (가챠패스·다이아충전·상품방향성·챕터패키지·첫결제·초보자패키지·충전이벤트·팝업패키지)
+     - index-raw-UB: 7건 (TCA_등급별유닛리스트·TCA_스탯리스트·TCA_전설유닛종합정리·등급별유닛리스트·미스테리오·유닛밸런스가이드·채굴맨)
+     - index-raw-GE: 6건 (장비시스템개편·유물시스템기획서·일일상점가이드·장비밸런스가이드·재화가치정의·행동력밸런스검토)
+     - index-raw-CT: 1건 (보스모드_기획서)
+     - index-raw-UX: 1건 (유닛_승급_강화_연출_기획서)
+     - index-raw-MP: 5건 (Ncsoft회의록_260310·5월테스트반영제안·TCA_260324작업리스트·OutGame_Design_Direction·project_vision)
+- **이상 없음**: frontmatter(domain·summary 전 46개 문서 완비), type-directory 일치, 결정사항 등록 완료
+
 ## [2026-04-07] ingest | PDF 피드백 3건 — Market Test, BM 논의 v0.0.13, NC 개선 제안
 - 대상: raw/feedback/ 신규 PDF 3건 (markitdown 변환 + .archive/ 이동)
   1. `26_0407_Market Test_SuperRabbit_KO.pdf.md` (MP) — 5월 UA 계획, USP 3종, 소재 컨셉 5종

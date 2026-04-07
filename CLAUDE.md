@@ -71,12 +71,14 @@ summary: "한줄 요약"    # 15~30자 (필수)
 새 원본 1건 → 주 도메인 분류 → index.md(라우터) + 해당 도메인 마이크로인덱스(index-raw-XX) + log.md 필수 업데이트 + 관련 concepts/decisions/timeline 터치 (목표 5~15페이지)
 - 새로 생성/수정하는 wiki 문서에 `domain`, `summary` frontmatter 필수 포함
 
-### Query (Two Outputs) — 도메인 기반 라우팅
-1. **1단계**: index.md(라우터)만 읽는다 → 도메인 코드 + 요약으로 관련 wiki 문서 식별
-2. **2단계**: 원본이 필요하면 해당 도메인의 마이크로인덱스(index-raw-XX)만 읽는다
-3. 관련 wiki/ → 필요시 raw/ 참조 → **답변**
+### Query (Two Outputs)
+1. **1단계 — 탐색**: Grep으로 wiki/ 내 키워드 검색 → 해당 문서 직독으로 답변 구성
+   - wiki/에서 충분하면 여기서 완료
+   - wiki/에 없거나 부족하면 → Grep으로 raw/ 검색 → 원본 참조
+2. **2단계 — 보충** (필요시): index.md 라우터나 index-raw-XX 마이크로인덱스는 도메인 전체 맥락이 필요할 때만 읽는다
+3. 관련 wiki/ + raw/ 참조 → **답변**
 4. 새로운 합성이 나왔으면 → **wiki 업데이트** + log.md 기록
-- ⚠️ 마이크로인덱스를 여러 개 읽지 않는다 — 라우터 도메인 코드로 판단 후 필요한 도메인만 읽는다
+- ⚠️ Grep 1회로 관련 문서를 특정한 뒤 읽는다 — 인덱스를 순차적으로 타고 내려가지 않는다
 
 ### Lint (헬스체크)
 문서 간 불일치, 누락 백링크, 미등록 결정사항, frontmatter 점검(`domain`·`summary` 필수), index.md 파일목록 검증, **순방향 참조 규칙 준수 점검** → log.md 기록

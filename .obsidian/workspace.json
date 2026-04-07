@@ -178,6 +178,8 @@
   },
   "active": "5f6dbbaee2f69e7a",
   "lastOpenFiles": [
+    "wiki/concepts/유닛-속성-밸런스.md",
+    "wiki/concepts/유닛-HP-체계.md",
     "raw/meetings/[0728] 미니크래프트 UI 폴리싱/[0728] 미니크래프트 UI 폴리싱.md",
     "raw/meetings/[0724] 플레이 테스트 설문 응답/[0724] 플레이 테스트 설문 응답.md",
     "wiki/timeline/2024-Q4.md",
@@ -203,8 +205,6 @@
     "output/query-전설유닛-결정흐름-2026-04-07.md",
     "output/healthcheck-2026-04-06.md",
     "output",
-    "wiki/concepts/연출-이펙트.md",
-    "wiki/log.md",
     "raw/gdd/gdd_index.jsonl",
     "raw/gdd/images",
     "scripts/convert-feedback.sh",

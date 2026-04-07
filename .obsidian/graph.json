@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "path:wiki  ",
-  "showTags": false,
+  "search": "PATH : wiki/decisions  ",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 0.697916666666667,
   "linkDistance": 250,
-  "scale": 0.6316046762907389,
-  "close": false
+  "scale": 0.8854989543150105,
+  "close": true
 }

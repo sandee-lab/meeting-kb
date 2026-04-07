@@ -11,14 +11,10 @@
             "id": "5f6dbbaee2f69e7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/머지-카드-시스템.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "머지-카드-시스템"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -74,7 +70,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,35 +179,35 @@
   },
   "active": "5f6dbbaee2f69e7a",
   "lastOpenFiles": [
+    "wiki/concepts/아웃게임-소셜-시스템.md",
+    "wiki/concepts/관리페이즈-인벤토리.md",
+    "raw/gdd/03_Content/M5_아웃게임_던전.md",
+    "raw/gdd/02_System/인게임_랜덤_가챠_시스템.md",
+    "raw/gdd/02_System/M5_인게임_택틱상점.md",
+    "raw/gdd/02_System/M5_인게임_아웃게임_지휘관_v2.md",
+    "raw/gdd/02_System/M5_아웃게임_퀘스트.md",
+    "raw/gdd/02_System/M5_아웃게임_친구.md",
+    "raw/gdd/02_System/M5_아웃게임_출석부.md",
+    "raw/gdd/02_System/M5_아웃게임_초보자퀘스트.md",
+    "raw/gdd/02_System/M5_아웃게임_우편.md",
+    "raw/gdd/02_System/M5_관리페이즈_인벤토리.md",
+    "raw/gdd/01_Core/미니크래프트_게임_플레이_아이디어.md",
+    "raw/gdd/01_Core/M5_next_방향_고민.md",
+    "raw/gdd/images",
+    "raw/gdd/06_Feedback/M5_7월_24일_테스트_가이드.md",
+    "raw/gdd/06_Feedback/M5_7_11_플레이_테스트_가이드.md",
+    "raw/gdd/06_Feedback/M5_3_To_do.md",
+    "raw/gdd/06_Feedback/M5_2_방향_및_할일_정리.md",
+    "raw/gdd/06_Feedback/M5_.md",
+    "wiki/concepts/S급-장비-포지셔닝.md",
+    "wiki/concepts/장비-경제-밸런스.md",
+    "wiki/concepts/머지-카드-시스템.md",
     "wiki/concepts/유닛-HP-체계.md",
     "wiki/concepts/유물-시스템.md",
     "wiki/concepts/유닛-속성-밸런스.md",
     "wiki/concepts/전설-유닛.md",
-    "wiki/concepts/속성-시너지.md",
-    "raw/meetings/[0728] 미니크래프트 UI 폴리싱/[0728] 미니크래프트 UI 폴리싱.md",
-    "raw/meetings/[0724] 플레이 테스트 설문 응답/[0724] 플레이 테스트 설문 응답.md",
-    "wiki/timeline/2024-Q4.md",
-    "cozy-painting-cake.md",
-    "wiki/index.md",
-    "wiki/index-raw-UX.md",
-    "wiki/index-raw-UB.md",
-    "wiki/index-raw-TC.md",
-    "wiki/index-raw-GE.md",
-    "wiki/index-raw-CM.md",
-    "wiki/index-raw-BM.md",
-    "wiki/concepts/사운드-음악-설계.md",
-    "wiki/concepts/외부-파트너-평가.md",
-    "wiki/concepts/스토리-세계관.md",
-    "wiki/concepts/성장-가이드-시스템.md",
-    "wiki/concepts/난이도-곡선-밸런싱.md",
-    "wiki/concepts/스폰-몬스터-시스템.md",
-    "wiki/concepts/운과-확률-메커니즘.md",
-    "wiki/concepts/인게임-전체설계.md",
-    "wiki/concepts/빌드-진화-단계.md",
-    "wiki/index-raw-MP.md",
     "output",
     "raw/gdd/gdd_index.jsonl",
-    "raw/gdd/images",
     "scripts/convert-feedback.sh",
     "scripts",
     "raw/feedback/[Ncsoft] 5월 테스트까지 우선 반영 제안 (아웃게임 이벤트 BM)/image.png",

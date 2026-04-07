@@ -13,6 +13,16 @@ tags: [log, meta]
 
 ---
 
+## [2026-04-07] Ingest | M5 GDD 신규 파일 17개 (CM/TC/BM/CT/GE/MP)
+- 대상: raw/gdd/01_Core(2), 02_System(9), 03_Content(1), 06_Feedback(5)
+- 도메인: CM, TC, BM, CT, GE, MP, UX, UB
+- 마이크로인덱스: index-raw-CM/TC/BM/CT/GE/MP/UX/UB 각 업데이트
+- concepts 업데이트(11): 머지-카드-시스템, 인게임-전체설계, 운과-확률-메커니즘, 게임-컨셉-방향성, 지휘관-배틀슈트, 택틱 시스템, 플레이테스트-유저피드백, 성장-가이드-시스템, 던전-콘텐츠모드, 튜토리얼-온보딩, 이벤트-시즌운영
+- 신규 생성(2): [[concepts/관리페이즈-인벤토리]], [[concepts/아웃게임-소셜-시스템]]
+- decisions 업데이트: 코어-메커닉, 택틱-시스템
+- timeline 업데이트: 2025년-하반기 (M5 7월 플레이테스트 2회 기록)
+- index.md: CM.05·CT.05 추가, 원본 248→265, concepts 30→32
+
 ## [2026-04-07] query | 장비 시스템의 변화 — S급 포지셔닝 & 경제 영향
 - 질문: 장비 시스템의 변화에 대해 설명해줘
 - 도메인: GE (domain_sub: BM)

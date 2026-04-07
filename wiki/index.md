@@ -8,7 +8,7 @@ tags: [index, meta]
 
 # Router
 
-> 업데이트: 2026-04-07 | 원본 265개 | concepts 32 · decisions 8 · timeline 4
+> 업데이트: 2026-04-07 | 원본 268개 | concepts 33 · decisions 8 · timeline 4
 
 ## 도메인 코드
 
@@ -37,6 +37,7 @@ GE.01 [[concepts/성장시스템-경제]] | 행동력/골드/다이아 자원체
 — D.MP.01 [[decisions/마일스톤-일정]](13) | M1~M9 마일스톤 기간·목표·출시로드맵 결정
 
 MP.01 [[concepts/플레이테스트-유저피드백]] | 내부·외부 플레이테스트 피드백 시계열 종합
+MP.06 [[concepts/마켓테스트-UA전략]] | 2026년 5월 마켓핏 테스트 UA 계획·USP·소재 전략
 CM.02 [[concepts/인게임-전체설계]] | 15웨이브 전투/정비 페이즈·소환·유물카지노 통합설계
 CM.03 [[concepts/운과-확률-메커니즘]] | 3중 랜덤 문제 분석, 승급전설 해결안
 CM.04 [[concepts/스폰-몬스터-시스템]] | VS/Hades 하이브리드 스폰·웨이브 패턴 설계

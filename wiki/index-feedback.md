@@ -8,7 +8,7 @@ tags: [index, feedback, publisher, meta]
 
 # 피드백 목록
 
-> 총 24건 — 내부 테스트 12건 + 외부/파트너 12건
+> 총 27건 — 내부 테스트 12건 + 외부/파트너 15건
 
 ---
 
@@ -49,6 +49,10 @@ tags: [index, feedback, publisher, meta]
 | 2026-04-06 | [[raw/feedback/Review_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 리뷰 데이터 (영문, 대용량) |
 | 2026-04-06 | [[raw/feedback/Survey_Tiny Cat Assemble _ Planet Busters_20260406]] | TCA·Planet Busters 최신 설문 데이터 (영문, 다수 응답) |
 | 2026-03-03 | [[raw/feedback/NCsoft_TinyCatAssemble 피드백_20260303]] | NCsoft 공식 피드백 — 전설 중심 재설계 제안, 등급 간 밸런스, 머지 정체성, BM 구조 (Ver.0.0.10) |
+
+| 2026-03 | [[raw/feedback/TCA BM 논의 자료 _20260408.pdf.md]] | BM·성장 논의 ver.0.0.13 — 전투력 척도, 장비 역할 강화, 전설 패키지 2종, 멤버십 개편, 마켓핏 테스트 ₩200,000 목표 |
+| 2026-04-07 | [[raw/feedback/26_0407_Market Test_SuperRabbit_KO.pdf.md]] | Market Test 제안서 — 5월 미국 AOS, USP 3종, 소재 컨셉 5종, 타겟 M2544/F2534 |
+| 2026-04-08 | [[raw/feedback/TCA 개선 제안_240408.pdf.md]] | NC 검토 의견 ver.0.0.13 — 쓱싹이 재설계, 이자 시스템 제외, 전략 카드, S급 장비, 멤버십 |
 
 ---
 

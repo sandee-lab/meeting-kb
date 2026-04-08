@@ -30,7 +30,9 @@ tags: [index, meta]
 CM.01 [[concepts/머지-카드-시스템]] | 머지+럭가챠 코어루프, 승급전설 시스템 | → D.CM.01 [[decisions/코어-메커닉]](16)
 UB.01 [[concepts/유닛-속성-밸런스]] | 5속성 체계·등급 구성·유닛 역할·소환 확률 | → D.UB.01 [[decisions/유닛-밸런스]](36)
 TC.01 [[concepts/택틱 시스템]] | 레벨업 택틱 드로우·스택·리롤·동적확률제어 | → D.TC.01 [[decisions/택틱-시스템]](10)
-BM.01 [[concepts/BM & 모네타이제이션]] | 소과금 PUR 중심 수익모델·패키지·광고 전략 | → D.BM.01 [[decisions/BM-수익화]](23)
+BM.01 [[concepts/BM & 모네타이제이션]] | 소과금 PUR 중심 수익모델·패키지·광고 전략 | → D.BM.01 [[decisions/BM-수익화]](28)
+BM.02 [[concepts/BM-상품설계]] | GDD 기반 패키지·이벤트·밸런스 상세 설계
+BM.03 [[concepts/BM-퍼블리셔논의]] | NCsoft·사업팀 BM 피드백 히스토리 (v0.0.6~0.0.13)
 UX.01 [[concepts/UI-UX-폴리싱]] | 레트로퓨처리즘 UI·시인성·폴리싱 반복과제 | → D.UX.01 [[decisions/UI-UX]](9)
 UX.02 [[concepts/튜토리얼-온보딩]] | 챕터별 단계적 온보딩·스토리컷신 튜토리얼 | → D.UX.02 [[decisions/튜토리얼]](8)
 GE.01 [[concepts/성장시스템-경제]] | 행동력/골드/다이아 자원체계·아웃게임 성장 | → D.GE.01 [[decisions/성장-경제]](18)
